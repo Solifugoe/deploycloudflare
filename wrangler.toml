@@ -1,5 +1,4 @@
-name = "cloudflare"
-
-[vars]
-API_KEY = "1234567asdf"
-YARN_VERSION = "1"
+[site]
+bucket = "./public"
+include = ["upload_dir"]
+exclude = ["ignore_dir"]
